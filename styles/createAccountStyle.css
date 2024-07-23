@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+:root {
+    --very-light-pink: #626161;
+    --hospital-green: #7bb785;
+    --dark: #232830;
+    --text-input-field: #F7F7F7;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
 html {
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;
@@ -9,4 +18,109 @@ html {
 *::after,
 *::before {
     box-sizing: inherit;
+}
+
+.header-create-account {
+    border: 1px solid var(--white);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+    height: 3.75rem;
+    padding: 0.75rem 3.19rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-create-account > :first-child {
+    display: flex;
+    gap: 3.31rem;
+}
+
+.header-create-account-directories {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.header-create-account-directories a {
+    color: var(--very-light-pink);
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    padding: 0.37rem 0.87rem;
+    border-radius: 0.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-create-account-directories a:hover {
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+
+}
+
+.header-create-account > :last-child {
+    display: flex;
+    align-items: center;
+    gap: 1.66rem;
+}
+
+.sign-in-text {
+    color: var(--hospital-green);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-container {
+    margin-top: 7.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.94rem;
+    align-items: center;
+    text-align: left;
+}
+
+.form-label strong {
+    display: block;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.37rem;
+}
+
+.form-label input {
+    width: 21.1875rem;
+    height: 2.625rem;
+    border-radius: 0.625rem;
+    border: 1px solid var(--very-light-pink);
+    background-color: var(--text-input-field);
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--very-light-pink);
+}
+
+.create-account {
+    width: 21.1875rem;
+}
+
+.primary-bottom {
+    border-radius: 0.625rem;
+    border: 1px solid var(--hospital-green);
+    background-color: var(--hospital-green);
+    padding: 1.13rem 7.44rem;
+    font-family: "Quicksand", sans-serif;
+    color: var(--white);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
