@@ -30,39 +30,37 @@
         <img src="assets/icon_shopping_cart_notification.svg" alt="Cart shopping">
     </section>
 </header>
-<main>
-    <header>
-        <h2>
-            My account
-        </h2>
-    </header>
+<main class="main-container">
+    <h2>
+        My account
+    </h2>
     <section>
         <form action="/createAccount" method="post">
             <p>
-                <label>
+                <label class="form-label">
                     <strong>
                         Name
                     </strong>
-                    <input type="text" name="name">
+                    <input type="text" name="name" placeholder="Your name">
                 </label>
             </p>
             <p>
-                <label>
+                <label class="form-label">
                     <strong>
                         Email address
                     </strong>
-                    <input type="email" name="email_address">
+                    <input type="email" name="email_address" placeholder="your_email@example.com">
                 </label>
             </p>
             <p>
-                <label>
+                <label class="form-label">
                     <strong>
                         Password
                     </strong>
-                    <input type="password" name="email_address">
+                    <input type="password" name="email_address" placeholder="****************">
                 </label>
             </p>
-            <button>Create</button>
+            <button class="primary-bottom create-account">Create</button>
         </form>
     </section>
 </main>

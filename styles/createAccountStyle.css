@@ -72,3 +72,55 @@ html {
     font-weight: 700;
     line-height: normal;
 }
+
+.main-container {
+    margin-top: 7.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.94rem;
+    align-items: center;
+    text-align: left;
+}
+
+.form-label strong {
+    display: block;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.37rem;
+}
+
+.form-label input {
+    width: 21.1875rem;
+    height: 2.625rem;
+    border-radius: 0.625rem;
+    border: 1px solid var(--very-light-pink);
+    background-color: var(--text-input-field);
+    margin-bottom: 1.5rem;
+    padding: 0 0.5rem;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--very-light-pink);
+}
+
+.create-account {
+    width: 21.1875rem;
+}
+
+.primary-bottom {
+    border-radius: 0.625rem;
+    border: 1px solid var(--hospital-green);
+    background-color: var(--hospital-green);
+    padding: 1.13rem 7.44rem;
+    font-family: "Quicksand", sans-serif;
+    color: var(--white);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
