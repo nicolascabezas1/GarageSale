@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="YardSale: the virtual garage store where you'll find unique treasures, from vintage furniture to
+          electronics and clothing. Discover incredible deals every day.">
+    <link rel="icon" type="image/x-icon" href="assets/favicon_yard_sale.svg">
+    <link rel="stylesheet" href="styles/myAccountStyle.css">
+    <title>My Account</title>
+</head>
+<body>
+<header class="header-create-account">
+    <section>
+        <img src="assets/logo_yard_sale.svg" alt="Yard sale logo">
+        <nav class="header-create-account-directories">
+            <a href="#">All</a>
+            <a href="#">Clothes</a>
+            <a href="#">Electronics</a>
+            <a href="#">Furniture</a>
+            <a href="#">Toys</a>
+            <a href="#">Others</a>
+        </nav>
+    </section>
+    <section>
+        <a href="#" class="sign-in-text">Sign in</a>
+        <img src="assets/icon_shopping_cart_notification.svg" alt="Cart shopping">
+    </section>
+</header>
+<main class="main-container">
+    <h2>
+        My account
+    </h2>
+    <section>
+        <form action="/createAccount" method="post" class="form-container">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="email_address" class="form-label">Email address</label>
+                <input type="email" id="email_address" name="email_address" placeholder="your_email@example.com"
+                       class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" placeholder="****************" class="form-input">
+            </div>
+            <button type="submit" class="primary-bottom create-account">Edit</button>
+        </form>
+    </section>
+</main>
+</body>
+</html>
