@@ -35,32 +35,21 @@
         My account
     </h2>
     <section>
-        <form action="/createAccount" method="post">
-            <p>
-                <label class="form-label">
-                    <strong>
-                        Name
-                    </strong>
-                    <input type="text" name="name" placeholder="Your name">
-                </label>
-            </p>
-            <p>
-                <label class="form-label">
-                    <strong>
-                        Email address
-                    </strong>
-                    <input type="email" name="email_address" placeholder="your_email@example.com">
-                </label>
-            </p>
-            <p>
-                <label class="form-label">
-                    <strong>
-                        Password
-                    </strong>
-                    <input type="password" name="email_address" placeholder="****************">
-                </label>
-            </p>
-            <button class="primary-bottom create-account">Create</button>
+        <form action="/createAccount" method="post" class="form-container">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="email_address" class="form-label">Email address</label>
+                <input type="email" id="email_address" name="email_address" placeholder="your_email@example.com"
+                       class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" placeholder="****************" class="form-input">
+            </div>
+            <button type="submit" class="primary-bottom create-account">Create</button>
         </form>
     </section>
 </main>
