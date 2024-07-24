@@ -83,44 +83,41 @@ html {
     text-align: left;
 }
 
-.form-label strong {
-    display: block;
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 25rem;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.313rem;
+}
+
+.form-label {
+    color: var(--black);
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 0.37rem;
 }
 
-.form-label input {
-    width: 21.1875rem;
-    height: 2.625rem;
-    border-radius: 0.625rem;
+.form-input {
+    padding: 0.625rem;
+    border-radius: 0.313rem;
     border: 1px solid var(--very-light-pink);
-    background-color: var(--text-input-field);
-    margin-bottom: 1.5rem;
-    padding: 0 0.5rem;
     font-family: "Quicksand", sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: var(--very-light-pink);
-}
-
-.create-account {
-    width: 21.1875rem;
 }
 
 .primary-bottom {
-    border-radius: 0.625rem;
-    border: 1px solid var(--hospital-green);
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.313rem;
+    border: none;
     background-color: var(--hospital-green);
-    padding: 1.13rem 7.44rem;
-    font-family: "Quicksand", sans-serif;
     color: var(--white);
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
 }
