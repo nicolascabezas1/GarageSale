@@ -72,3 +72,52 @@ html {
     font-weight: 700;
     line-height: normal;
 }
+
+.main-container {
+    margin-top: 7.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.94rem;
+    align-items: center;
+    text-align: left;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    width: 25rem;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.313rem;
+}
+
+.form-label {
+    color: var(--black);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.form-input {
+    padding: 0.625rem;
+    border-radius: 0.313rem;
+    border: 1px solid var(--very-light-pink);
+    font-family: "Quicksand", sans-serif;
+}
+
+.primary-bottom {
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.313rem;
+    border: none;
+    background-color: var(--hospital-green);
+    color: var(--white);
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+}
