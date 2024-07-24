@@ -19,3 +19,56 @@ html {
 *::before {
     box-sizing: inherit;
 }
+
+.header-create-account {
+    border: 1px solid var(--white);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19);
+    height: 3.75rem;
+    padding: 0.75rem 3.19rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-create-account > :first-child {
+    display: flex;
+    gap: 3.31rem;
+}
+
+.header-create-account-directories {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.header-create-account-directories a {
+    color: var(--very-light-pink);
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    padding: 0.37rem 0.87rem;
+    border-radius: 0.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header-create-account-directories a:hover {
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
+
+}
+
+.header-create-account > :last-child {
+    display: flex;
+    align-items: center;
+    gap: 1.66rem;
+}
+
+.sign-in-text {
+    color: var(--hospital-green);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
