@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --very-light-pink: #626161;
+    --hospital-green: #7bb785;
+    --dark: #232830;
+    --text-input-field: #F7F7F7;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
